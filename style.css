@@ -61,7 +61,7 @@ body{
         display: flex;
     }
     .header-content h2{
-        font-size: 40px;
+        font-size: 30px;
     }
     .header-content p{
         font-size: 19px;
@@ -208,7 +208,14 @@ body{
 
 /* START best-combo media queries */
 @media  (min-width:350px){
-    
+    .best-combo{
+        justify-content: center;
+        padding: 10px;
+        gap: 20px;
+    }
+    .best-combo__image{
+        max-width: 20%;
+    }
     .best-combo__content h3{
         font-size: 1rem;
     }
@@ -217,6 +224,8 @@ body{
     }
     .best-combo__content button{
         width: 140px;
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
     }
 }
 @media  (max-width:550px) {
@@ -236,6 +245,8 @@ body{
     }
     .best-combo__content button{
         width: 140px;
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
     }
 }
 @media  (min-width:720px) and (max-width:850px){
