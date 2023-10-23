@@ -1,0 +1,45 @@
+.about-us{
+    margin-top: 130px;
+}
+.about-us-1{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.about-us__image{
+    flex: 1;
+    width: 100%;
+}
+.about-us__content{
+    flex: 1;
+    text-align: center;
+}
+.about-us__content h5{
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: var(--playfair-display);
+}
+.about-us__content p{
+    font-size: 1.2rem;
+    font-family: var(--plus-jakarta-sans);
+}
+
+.body__caption{
+    margin-top: 300px;
+    background-image: url(../images/body_captionbg.png);
+    background-position: center;
+    background-size: cover;
+    height: 390px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.body__caption h2{
+    font-family: var(--plus-jakarta-sans);
+    font-style: italic;
+    text-align: center;
+    font-size: 3rem;
+    align-self: center;
+    color: var(--secondary-color);
+}

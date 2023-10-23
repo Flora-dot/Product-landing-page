@@ -1,0 +1,27 @@
+.discover{
+    background-color: var(--primary-color);
+    height: 320px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.discover-title{
+    flex: 1;
+    font-size: 4.3rem;
+    font-weight: 600;
+    font-family: var(--plus-jakarta-sans);
+}
+.discover p{
+    flex: 1;
+    font-size: 1.25rem;
+    font-weight: 100;
+    font-family: var(--playfair-display);
+}
+.discover-link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: var(--playfair-display);
+}

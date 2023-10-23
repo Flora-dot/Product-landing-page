@@ -1,0 +1,73 @@
+.bestseller{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: var(--primary-color);
+}
+.bestseller-title{
+    font-size: 4.3rem;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: bolder;
+    line-height: 78px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+.bestseller__filter-menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+}
+.bestseller__filter-item{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--playfair-display);
+}
+.bestseller__filter-item a{
+    text-decoration: none;
+    color: #000;
+}
+.bestseller__filter-item a.active{
+    text-decoration: underline;
+    color: red;
+}
+.bestseller-catalogue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+}
+.bestselle{
+r__card    height: fit-content;
+    max-width: 24%;
+
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+.bestseller__card-image{
+    width: 100%;
+}
+.bestseller__card-title{
+    padding: 8px;
+}
+.bestsellercard__card-price{
+    font-size: 17px;
+    font-weight: 300;
+    font-family: var(--plus-jakarta-sans);
+}
+
+.last-chance{
+    margin-top: 250px;
+    padding: 15px;
+}
+
+.models{
+    display: flex;
+    margin-top: 200px;
+}
+.models img{
+    max-width: 20%;
+}
