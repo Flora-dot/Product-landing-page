@@ -49,4 +49,8 @@
     .about-us-1 {
         flex-direction: column;
     }
+
+    .about-us__image {
+        width: 100%;
+    }
 }

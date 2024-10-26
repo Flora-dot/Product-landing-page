@@ -97,4 +97,8 @@
     .bestseller__card-title{
         font-size: 0.9rem;
     }
+
+    .last-chance {
+        margin-top: 50px;
+    }
 }
