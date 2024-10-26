@@ -43,3 +43,10 @@
     align-self: center;
     color: var(--secondary-color);
 }
+
+
+@media (max-width: 600px) {
+    .about-us-1 {
+        flex-direction: column;
+    }
+}
